@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUpViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dK-78-Dok">
+                    <rect key="frame" x="270" y="263" width="61" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGr-Ty-oH3">
+                    <rect key="frame" x="93" y="306" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Ccx-gp-SCc"/>
+                    </constraints>
+                    <state key="normal" title="Login"/>
+                    <connections>
+                        <action selector="pressLoginButton:" destination="-1" eventType="touchUpInside" id="zIh-UK-clc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cN-sj-cse">
+                    <rect key="frame" x="307" y="306" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="gWZ-fe-HsM"/>
+                    </constraints>
+                    <state key="normal" title="Next"/>
+                    <connections>
+                        <action selector="pressNextButton:" destination="-1" eventType="touchUpInside" id="oNF-zQ-Xdy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yGr-Ty-oH3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="21" id="43I-wr-ioH"/>
+                <constraint firstItem="8dK-78-Dok" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5Ww-Zj-VOV"/>
+                <constraint firstItem="yGr-Ty-oH3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-107" id="9PQ-rb-Tyv"/>
+                <constraint firstItem="9cN-sj-cse" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="21" id="Ez4-2P-1z4"/>
+                <constraint firstItem="9cN-sj-cse" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="107" id="Gjh-pm-H1l"/>
+                <constraint firstItem="8dK-78-Dok" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-26.5" id="TZz-R8-OIQ"/>
+                <constraint firstItem="9cN-sj-cse" firstAttribute="leading" secondItem="yGr-Ty-oH3" secondAttribute="trailing" constant="14" id="fFl-RJ-BoO"/>
+                <constraint firstItem="9cN-sj-cse" firstAttribute="width" secondItem="yGr-Ty-oH3" secondAttribute="width" id="l0o-Um-Axf"/>
+                <constraint firstItem="9cN-sj-cse" firstAttribute="leading" secondItem="yGr-Ty-oH3" secondAttribute="trailing" constant="14" id="meP-Nt-rp6"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

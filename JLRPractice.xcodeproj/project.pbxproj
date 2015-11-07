@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A9488545B1D85A5170B4F3 /* libPods-JLRPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCED41979316787486BA0DD /* libPods-JLRPractice.a */; };
 		4CEDEC431BE9BDD000B75E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDEC421BE9BDD000B75E43 /* main.m */; };
 		4CEDEC461BE9BDD000B75E43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDEC451BE9BDD000B75E43 /* AppDelegate.m */; };
-		4CEDEC491BE9BDD000B75E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDEC481BE9BDD000B75E43 /* ViewController.m */; };
-		4CEDEC4C1BE9BDD000B75E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDEC4A1BE9BDD000B75E43 /* Main.storyboard */; };
 		4CEDEC4E1BE9BDD000B75E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDEC4D1BE9BDD000B75E43 /* Assets.xcassets */; };
 		4CEDEC511BE9BDD000B75E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDEC4F1BE9BDD000B75E43 /* LaunchScreen.storyboard */; };
+		4CEDEC761BEC015D00B75E43 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDEC741BEC015D00B75E43 /* StartViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC771BEC015D00B75E43 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDEC751BEC015D00B75E43 /* StartViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC7B1BEC016E00B75E43 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDEC791BEC016E00B75E43 /* SignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC7C1BEC016E00B75E43 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDEC7A1BEC016E00B75E43 /* SignUpViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC831BEC01AF00B75E43 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDEC811BEC01AF00B75E43 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC841BEC01AF00B75E43 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDEC821BEC01AF00B75E43 /* LoginViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC881BEC01E500B75E43 /* CompleteProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDEC861BEC01E500B75E43 /* CompleteProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC891BEC01E500B75E43 /* CompleteProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDEC871BEC01E500B75E43 /* CompleteProfileViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC8F1BEC4AD500B75E43 /* InitialFlowControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDEC8E1BEC4AD500B75E43 /* InitialFlowControl.m */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC941BEC628000B75E43 /* ConversationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDEC921BEC628000B75E43 /* ConversationsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC951BEC628000B75E43 /* ConversationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDEC931BEC628000B75E43 /* ConversationsViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		4CEDEC981BEC629100B75E43 /* ConversationFlowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDEC971BEC629100B75E43 /* ConversationFlowController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +31,31 @@
 		4CEDEC421BE9BDD000B75E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CEDEC441BE9BDD000B75E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CEDEC451BE9BDD000B75E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4CEDEC471BE9BDD000B75E43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4CEDEC481BE9BDD000B75E43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4CEDEC4B1BE9BDD000B75E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CEDEC4D1BE9BDD000B75E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CEDEC501BE9BDD000B75E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CEDEC521BE9BDD000B75E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CEDEC731BEC015D00B75E43 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		4CEDEC741BEC015D00B75E43 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		4CEDEC751BEC015D00B75E43 /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		4CEDEC781BEC016E00B75E43 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		4CEDEC791BEC016E00B75E43 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		4CEDEC7A1BEC016E00B75E43 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		4CEDEC801BEC01AF00B75E43 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4CEDEC811BEC01AF00B75E43 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4CEDEC821BEC01AF00B75E43 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		4CEDEC851BEC01E500B75E43 /* CompleteProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteProfileViewController.h; sourceTree = "<group>"; };
+		4CEDEC861BEC01E500B75E43 /* CompleteProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompleteProfileViewController.m; sourceTree = "<group>"; };
+		4CEDEC871BEC01E500B75E43 /* CompleteProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompleteProfileViewController.xib; sourceTree = "<group>"; };
+		4CEDEC8D1BEC4AD500B75E43 /* InitialFlowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialFlowControl.h; sourceTree = "<group>"; };
+		4CEDEC8E1BEC4AD500B75E43 /* InitialFlowControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialFlowControl.m; sourceTree = "<group>"; };
+		4CEDEC911BEC628000B75E43 /* ConversationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationsViewController.h; sourceTree = "<group>"; };
+		4CEDEC921BEC628000B75E43 /* ConversationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationsViewController.m; sourceTree = "<group>"; };
+		4CEDEC931BEC628000B75E43 /* ConversationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationsViewController.xib; sourceTree = "<group>"; };
+		4CEDEC961BEC629100B75E43 /* ConversationFlowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationFlowController.h; sourceTree = "<group>"; };
+		4CEDEC971BEC629100B75E43 /* ConversationFlowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationFlowController.m; sourceTree = "<group>"; };
+		90D66BC07E0ED4096CC80428 /* Pods-JLRPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLRPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLRPractice/Pods-JLRPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		CF28A776C6C3138E51832FAA /* Pods-JLRPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLRPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLRPractice/Pods-JLRPractice.release.xcconfig"; sourceTree = "<group>"; };
+		DFCED41979316787486BA0DD /* libPods-JLRPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLRPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A9488545B1D85A5170B4F3 /* libPods-JLRPractice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +75,8 @@
 			children = (
 				4CEDEC401BE9BDD000B75E43 /* JLRPractice */,
 				4CEDEC3F1BE9BDD000B75E43 /* Products */,
+				C7375FE379E493401D416424 /* Pods */,
+				9E91FF001A3606198E2BC7F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +91,11 @@
 		4CEDEC401BE9BDD000B75E43 /* JLRPractice */ = {
 			isa = PBXGroup;
 			children = (
+				4CEDEC991BED9D5500B75E43 /* FlowControllers */,
+				4CEDEC901BEC626400B75E43 /* ConversationControllers */,
+				4CEDEC721BEC008400B75E43 /* LoginControllers */,
 				4CEDEC441BE9BDD000B75E43 /* AppDelegate.h */,
 				4CEDEC451BE9BDD000B75E43 /* AppDelegate.m */,
-				4CEDEC471BE9BDD000B75E43 /* ViewController.h */,
-				4CEDEC481BE9BDD000B75E43 /* ViewController.m */,
-				4CEDEC4A1BE9BDD000B75E43 /* Main.storyboard */,
 				4CEDEC4D1BE9BDD000B75E43 /* Assets.xcassets */,
 				4CEDEC4F1BE9BDD000B75E43 /* LaunchScreen.storyboard */,
 				4CEDEC521BE9BDD000B75E43 /* Info.plist */,
@@ -79,6 +112,63 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4CEDEC721BEC008400B75E43 /* LoginControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEDEC731BEC015D00B75E43 /* StartViewController.h */,
+				4CEDEC741BEC015D00B75E43 /* StartViewController.m */,
+				4CEDEC751BEC015D00B75E43 /* StartViewController.xib */,
+				4CEDEC781BEC016E00B75E43 /* SignUpViewController.h */,
+				4CEDEC791BEC016E00B75E43 /* SignUpViewController.m */,
+				4CEDEC7A1BEC016E00B75E43 /* SignUpViewController.xib */,
+				4CEDEC801BEC01AF00B75E43 /* LoginViewController.h */,
+				4CEDEC811BEC01AF00B75E43 /* LoginViewController.m */,
+				4CEDEC821BEC01AF00B75E43 /* LoginViewController.xib */,
+				4CEDEC851BEC01E500B75E43 /* CompleteProfileViewController.h */,
+				4CEDEC861BEC01E500B75E43 /* CompleteProfileViewController.m */,
+				4CEDEC871BEC01E500B75E43 /* CompleteProfileViewController.xib */,
+			);
+			name = LoginControllers;
+			sourceTree = "<group>";
+		};
+		4CEDEC901BEC626400B75E43 /* ConversationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEDEC911BEC628000B75E43 /* ConversationsViewController.h */,
+				4CEDEC921BEC628000B75E43 /* ConversationsViewController.m */,
+				4CEDEC931BEC628000B75E43 /* ConversationsViewController.xib */,
+			);
+			name = ConversationControllers;
+			sourceTree = "<group>";
+		};
+		4CEDEC991BED9D5500B75E43 /* FlowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CEDEC8D1BEC4AD500B75E43 /* InitialFlowControl.h */,
+				4CEDEC8E1BEC4AD500B75E43 /* InitialFlowControl.m */,
+				4CEDEC961BEC629100B75E43 /* ConversationFlowController.h */,
+				4CEDEC971BEC629100B75E43 /* ConversationFlowController.m */,
+			);
+			name = FlowControllers;
+			sourceTree = "<group>";
+		};
+		9E91FF001A3606198E2BC7F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFCED41979316787486BA0DD /* libPods-JLRPractice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7375FE379E493401D416424 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90D66BC07E0ED4096CC80428 /* Pods-JLRPractice.debug.xcconfig */,
+				CF28A776C6C3138E51832FAA /* Pods-JLRPractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CEDEC551BE9BDD000B75E43 /* Build configuration list for PBXNativeTarget "JLRPractice" */;
 			buildPhases = (
+				9CABF847185D8B974ACCDDD5 /* Check Pods Manifest.lock */,
 				4CEDEC3A1BE9BDD000B75E43 /* Sources */,
 				4CEDEC3B1BE9BDD000B75E43 /* Frameworks */,
 				4CEDEC3C1BE9BDD000B75E43 /* Resources */,
+				C8A1C021AD462B8EB993C91C /* Embed Pods Frameworks */,
+				821E9CC9069EEA26210C8514 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,21 +229,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CEDEC841BEC01AF00B75E43 /* LoginViewController.xib in Resources */,
+				4CEDEC891BEC01E500B75E43 /* CompleteProfileViewController.xib in Resources */,
+				4CEDEC7C1BEC016E00B75E43 /* SignUpViewController.xib in Resources */,
+				4CEDEC951BEC628000B75E43 /* ConversationsViewController.xib in Resources */,
 				4CEDEC511BE9BDD000B75E43 /* LaunchScreen.storyboard in Resources */,
 				4CEDEC4E1BE9BDD000B75E43 /* Assets.xcassets in Resources */,
-				4CEDEC4C1BE9BDD000B75E43 /* Main.storyboard in Resources */,
+				4CEDEC771BEC015D00B75E43 /* StartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		821E9CC9069EEA26210C8514 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLRPractice/Pods-JLRPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CABF847185D8B974ACCDDD5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A1C021AD462B8EB993C91C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLRPractice/Pods-JLRPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CEDEC3A1BE9BDD000B75E43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CEDEC491BE9BDD000B75E43 /* ViewController.m in Sources */,
+				4CEDEC831BEC01AF00B75E43 /* LoginViewController.m in Sources */,
+				4CEDEC981BEC629100B75E43 /* ConversationFlowController.m in Sources */,
+				4CEDEC8F1BEC4AD500B75E43 /* InitialFlowControl.m in Sources */,
+				4CEDEC761BEC015D00B75E43 /* StartViewController.m in Sources */,
 				4CEDEC461BE9BDD000B75E43 /* AppDelegate.m in Sources */,
+				4CEDEC7B1BEC016E00B75E43 /* SignUpViewController.m in Sources */,
+				4CEDEC941BEC628000B75E43 /* ConversationsViewController.m in Sources */,
+				4CEDEC881BEC01E500B75E43 /* CompleteProfileViewController.m in Sources */,
 				4CEDEC431BE9BDD000B75E43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,14 +309,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4CEDEC4A1BE9BDD000B75E43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CEDEC4B1BE9BDD000B75E43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4CEDEC4F1BE9BDD000B75E43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,6 +402,7 @@
 		};
 		4CEDEC561BE9BDD000B75E43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D66BC07E0ED4096CC80428 /* Pods-JLRPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JLRPractice/Info.plist;
@@ -270,6 +414,7 @@
 		};
 		4CEDEC571BE9BDD000B75E43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF28A776C6C3138E51832FAA /* Pods-JLRPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JLRPractice/Info.plist;
@@ -298,6 +443,7 @@
 				4CEDEC571BE9BDD000B75E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

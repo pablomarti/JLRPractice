@@ -1,0 +1,10 @@
+PODS:
+  - JLRoutes (1.5.3)
+
+DEPENDENCIES:
+  - JLRoutes (~> 1.5)
+
+SPEC CHECKSUMS:
+  JLRoutes: 20555d00693855b71e80715eeaae6a930a33b2f5
+
+COCOAPODS: 0.39.0
